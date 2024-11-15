@@ -1,0 +1,112 @@
+
+/* Estilo del cuerpo */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center;
+    color: #003366;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtítulos */
+h2 {
+    color: #00509e;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Contenedor general de formularios */
+.form {
+    background-color: #eaf4fc;
+    border: 1px solid #cfe2f3;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #003366;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a1c4e9;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #00509e;
+    box-shadow: 0 0 5px rgba(0, 80, 158, 0.3);
+}
+
+/* Botones */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #00509e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Sección de resultados */
+#resultados {
+    background-color: #ffffff;
+    border: 1px solid #cfe2f3;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Detalles del CIFP y lista de alumnos */
+#cifp-detalles, #lista-alumnos {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Margen inferior para el contenedor de resultados */
+#lista-alumnos {
+    margin-top: 15px;
+}

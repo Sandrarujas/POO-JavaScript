@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFP y Alumnos</title>
+    <link rel="stylesheet" href="CSS/Css.css">
+</head>
+<body>
+    <h1>CIFP: Gestión de Alumnos</h1>
+    <div id="app">
+        <div class="form">
+            <h2>Datos del CIFP</h2>
+            <label for="cifp-nombre">Nombre:</label>
+            <input type="text" id="cifp-nombre">
+            <label for="cifp-localidad">Localidad:</label>
+            <input type="text" id="cifp-localidad">
+            <label for="cifp-email">Email:</label>
+            <input type="email" id="cifp-email">
+            <label for="cifp-aulas">Número de aulas:</label>
+            <input type="number" id="cifp-aulas">
+            <label for="cifp-alumnos">Número de alumnos:</label>
+            <input type="number" id="cifp-alumnos">
+            <button id="crear-cifp">Crear CIFP</button>
+        </div>
+
+        <div class="form">
+            <h2>Agregar Alumno</h2>
+            <label for="alumno-dni">DNI:</label>
+            <input type="text" id="alumno-dni">
+            <label for="alumno-nombre">Nombre:</label>
+            <input type="text" id="alumno-nombre">
+            <label for="alumno-nota">Nota media:</label>
+            <input type="number" id="alumno-nota">
+            <button id="agregar-alumno">Agregar Alumno</button>
+        </div>
+
+        <div id="resultados">
+            <h2>Resultados</h2>
+            <p id="cifp-detalles"></p>
+            <p id="lista-alumnos"></p>
+        </div>
+    </div>
+    <script src="JS/Js.js"></script>
+</body>
+</html>
